@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools >= 60.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tmux_layout"
+version = "0.1.0"
+description = "Layout managing server for tmux"
+# readme = "README.rst"
+license = { file = "LICENSE.mit" }
+requires-python = ">=3.7"
+authors = [ { name = "mingmingrr", email = "mingmingrr@gmail.com" } ]
+dependencies = [
+	"libtmux",
+]
+classifiers = [
+	"Intended Audience :: Developers",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: POSIX :: Linux",
+	"Programming Language :: Python :: 3.7",
+	"Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3.12",
+	"Programming Language :: Python :: 3.13",
+	"Programming Language :: Python :: Implementation :: PyPy",
+]
+
+[project.urls]
+Homepage = "https://github.com/mingmingrr/tmux_layout"
+# Changelog = "https://github.com/mingmingrr/tmux-layout/blob/master/CHANGELOG.md"
+# Docs = "https://tmux-layout.readthedocs.io/en/latest"
+Issues = "https://github.com/mingmingrr/tmux-layout/issues"
+
